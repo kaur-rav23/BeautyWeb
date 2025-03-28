@@ -1,0 +1,64 @@
+.brands-list{
+    list-style-type:none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding:4%;
+}
+
+
+.brand-div{
+    width:24%;
+    height:200px;
+    padding:1%;
+    
+}
+
+.brand-div-inner{
+    height:100%;
+    border-radius: 10%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2),
+            0 5px 10px rgba(0, 0, 0, 0.1);
+
+    background-image: url('https://img.freepik.com/free-vector/realistic-pink-silver-background_23-2150022215.jpg?t=st=1742212777~exp=1742216377~hmac=bc6216f41e5be17cceabf96b2d657b6d6198afc26d1a9d92f5ded075e0e12f5a&w=1380');
+    background-size: cover;
+}
+
+.brand-name{
+    text-align: center;
+    /* font-size: 20px; */
+    padding: 20px;
+}
+
+.brand-name>h2{
+    font-weight: bold;
+    margin-top:7%;
+}
+
+.brand-div-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.brand-div-inner::before {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+.brand-div-inner:hover::before {
+    top: 100%;
+    left: 100%;
+}
+
+.brand-heading{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top:3%;
+}
