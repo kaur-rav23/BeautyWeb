@@ -1,9 +1,10 @@
 import React from 'react';
 import mainImage from '../assets/mainImage.png';
 import data from '../utils/mockData';
+import Categories from './Categories';
+import InfoSection from './InfoSection';
 import './Main.css';
 import PromoCards from './PromoCards';
-import Categories from './Categories';
 
 const Main = () => {
   const uniqueBrands = Array.from(
@@ -30,9 +31,9 @@ const Main = () => {
           </ul>
         </div>
       </div>
-
-      <PromoCards />
       <Categories />
+      <PromoCards />
+      <InfoSection/>
     </div>
   )
 }
