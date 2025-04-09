@@ -1,0 +1,77 @@
+.contact-container {
+    background: rgba(113, 28, 102, 0.233);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.contact-card {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+}
+
+.contact-left {
+    background: #711c66;
+    color: white;
+    padding: 6%;
+    flex: 1;
+}
+
+.contact-left h2 {
+    margin-bottom: 20px;
+}
+
+.contact-left p {
+    margin: 6% 0;
+}
+
+
+
+.contact-right {
+    padding: 30px;
+    flex: 1;
+}
+
+.contact-right h2 {
+    margin-bottom: 10px;
+    color: #711c66;
+}
+
+.contact-right p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+form button {
+    background: #711c66;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form button:hover {
+    background: rgba(113, 28, 102, 0.233);
+    color:black;
+}
