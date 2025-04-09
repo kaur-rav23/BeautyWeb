@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
- 
+
   return (
     <header className="header">
       {/* Top Navbar */}
@@ -22,9 +22,9 @@ const Header = () => {
           <li><Link to="/brand" style={{ color: "black", textDecoration: "none" }}>Brand ▼</Link></li>
           <li><Link to="/products" style={{ color: "black", textDecoration: "none" }}>Product ▼</Link></li>
           <li>Blog</li>
-          <li>Contact</li>
-          <li>Discount</li>
-          <li>New Arrival</li>
+          <li><Link to="/contact" style={{ color: "black", textDecoration: "none" }}>Contact</Link></li>
+          {/* <li>Discount</li> */}
+          {/* <li>New Arrival</li> */}
         </ul>
 
 
