@@ -3,6 +3,7 @@
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    margin-bottom:4%;
 }
 
 .category-card {
@@ -39,7 +40,7 @@
 }
 
 .shop-now {
-    background-color:rgb(113, 28, 102);
+    background-color:#711c66;
     color: white;
     border: none;
     padding: 6px 12px;
@@ -50,7 +51,7 @@
 }
 
 .shop-now:hover {
-    background-color: #a07166;
+    background-color:  #e6007e;
 }
 
 .category-image {
@@ -59,8 +60,8 @@
 }
 
 .heading-div {
-    margin-top: 4%;
-    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom:2%;
     padding: 1%;
-    background-color: rgba(225, 153, 196,0.4);
+    background-color: #e199c466;
 }
