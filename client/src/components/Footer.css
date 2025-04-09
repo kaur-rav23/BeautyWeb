@@ -1,0 +1,40 @@
+.dark-footer {
+    background-color:rgba(113, 28, 102, 0.233);
+    padding: 60px 20px 40px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .dark-footer h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .dark-footer p {
+    max-width: 600px;
+    margin: 0 auto 25px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+  }
+  
+  .social-icons a {
+    background-color: white;
+    color:black;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: black;
+    color: white;
+  }
+  
